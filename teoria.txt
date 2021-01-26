@@ -1,0 +1,9 @@
+numpy:
+- jest dużo szybszy niż lista,
+- efektywnie czyści catche
+- ma dużo więcej opcji, 'zastępuje' Matlaba
+- plotting (matplotlib)
+- backend (pandas, connect 4, fotografia cyfrowa)
+- Machine Learning
+
+
