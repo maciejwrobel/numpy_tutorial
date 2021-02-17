@@ -14,7 +14,8 @@ np.cos(c)
 
 a = np.full((2, 3), 1)
 b = np.full((3, 2), 2)
-
+# print(a)
+# print(b)
 
 # NOPE
 # print(a*b)
@@ -24,8 +25,10 @@ np.matmul(a, b)
 
 # FIND DETERMINANT
 c = np.identity(3)
+print(c)
 # linear algebra determinant
-np.linalg.det(c)
+d = np.linalg.det(c)
+print(d)
 
 
 # REFERENCE DOCS

@@ -2,31 +2,39 @@ import numpy as np
 
 # all 0s matrix
 a = np.zeros((5, 5))
-
+# print(a)
 
 # all 1s matrix
-np.ones((4, 2, 2), dtype='int32')
+b = np.ones((4, 2, 2), dtype='int32')
+# print(b)
 
 # any other number (shape, value)
-np.full((2, 2), 99)
+c = np.full((7, 7), 99)
+# print(c)
 
-# any other number (full_like method) (shape_like, value)
-np.full_like(a, 4)
+# any other number (full_like method) -> (shape_like, value)
+d = np.full_like(a, 4)
+# print(d)
 
 # random decimal numbers
 
-np.random.rand(4, 2)
-np.random.random_sample(a.shape)
+e = np.random.rand(4, 2)
+f = np.random.random_sample(a.shape)
+# print(e)
+# print(f)
 
 # random integer values (low (0), high, size)
-np.random.randint(2, 7, size=(3, 3))
+g = np.random.randint(2, 7, size=(3, 3))
+# print(g)
 
-# square matrix
-np.identity(5)
+# square matrix - > jedynki po przekątnej
+h = np.identity(7)
+# print(h)
 
 # repeat an array
 arr = np.array([[1, 2, 3]])
 r1 = np.repeat(arr, 3, axis=0)
+# print(r1)
 
 # excercise
 
